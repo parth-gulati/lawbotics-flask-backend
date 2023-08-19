@@ -279,7 +279,7 @@ def run_query():
     retriever = BM25Retriever(document_store=document_store)
 
     generator = OpenAIAnswerGenerator(
-        api_key="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",
+        api_key="**insert API key",
         model="text-davinci-003",
         max_tokens=1000,
         temperature=0.75,
